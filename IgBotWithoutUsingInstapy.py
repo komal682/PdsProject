@@ -34,13 +34,9 @@ def start_browser_login():
     sleep(5)
     browser.find_element_by_xpath('//button[@type="button"]').click()
     sleep(5)
-    browser.find_element_by_css_selector("button.aOOlW:nth-child(1)").click()  #this is included if we had include option or we usig firefox
-    sleep(5)
+    browser.find_element_by_css_selector("button.aOOlW:nth-child(1)").click() 
 
 
-
-
-#start of program
 
 start_browser_login()
 
